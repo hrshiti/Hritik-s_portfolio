@@ -1,0 +1,30 @@
+.footerForm{
+  height:645px;
+  width:400px;
+  background-color: black;
+  margin:82px 82px;
+}
+.footerForm h1{
+  margin-top:75px;
+}
+.FormBtn{
+  background-color: yellow;
+  border: solid black 2px;
+  height : 34px;
+  margin-top:12px;
+  font-weight:700;
+}
+.FormBtn:hover{
+  background:brown;
+  transition:0.5s;
+}
+.form{
+  display:flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top:50px;
+  text-align: center;
+  gap:12px;
+  align-items:center;
+  justify-content:center;
+}
