@@ -1,0 +1,39 @@
+.main_card{
+border:solid 2px yellow;
+height:320px;
+width:300px;
+
+}
+.main_card:hover{
+
+transform:scale(1.01);
+border: 2px solid yellow;
+box-shadow: 0 0 10px 2px yellow;
+
+
+}
+.card_img{
+height:180px;
+border:solid 2px white;
+margin:12px;
+overflow:hidden
+}
+.food_Image{
+height:100%;
+width:100%;
+object-fit:cover
+
+}
+.card_description h3{
+margin-left:80px;
+font-size:26px;
+color:yellow;
+
+}
+.card_description p{
+text-align:center
+
+}
+.card_description button{
+margin-left:110px;
+}

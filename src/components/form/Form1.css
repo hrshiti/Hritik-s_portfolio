@@ -1,0 +1,69 @@
+/* Form Inputs */
+.input1, .input2, .input3 {
+  min-height: 45px;
+  min-width: 550px;
+  background-color: darkgrey;
+  font-weight: 700;
+  color: black;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+/* Larger input box for messages */
+.input3 {
+  min-height: 100px;
+}
+
+/* Input Section with Padding */
+.input2_css {
+  padding-bottom: 23px;
+  padding-top: 23px;
+}
+
+/* Button Styling */
+.input_btn {
+  margin-top: 65px;
+}
+
+.inputBtn {
+  font-size: 23px;
+  min-width: 56px;
+  min-height: 56px;
+}
+
+/* Form Section Styling */
+.form_section {
+  padding-right: 120px;
+  color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .input1, .input2, .input3 {
+    min-width: 100%; /* Take full width on small screens */
+  }
+
+  .form_section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .input_btn {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .input1, .input2, .input3 {
+    min-width: 100%; /* Ensure full width */
+  }
+
+  .input_btn {
+    margin-top: 20px;
+  }
+
+  .inputBtn {
+    font-size: 20px;
+    width: 100%; /* Make button full width */
+  }
+}

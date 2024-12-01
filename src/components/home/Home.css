@@ -1,0 +1,107 @@
+/* Main styles */
+.home_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 650px;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  padding: 0 20px; /* Add padding to avoid elements sticking to edges */
+  box-sizing: border-box;
+}
+
+.myImage {
+  height: 500px;
+  width: auto; /* Maintain aspect ratio */
+}
+
+.highlight {
+  color: yellow;
+}
+
+.myInfo {
+  font-size: 30px;
+  padding: 123px; /* Reduce padding for smaller screens */
+}
+
+.img_div {
+  padding: 0 20px; /* Adjust padding for smaller screens */
+}
+
+.myInfo h3 {
+  margin-bottom: 30px;
+}
+
+.myInfo h1 {
+  margin-bottom: 50px;
+}
+
+/* Responsive styles */
+
+/* For tablets and medium devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .home_section {
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content */
+    height: auto; /* Allow height to adjust based on content */
+    text-align: center; /* Center text */
+  }
+
+  .myInfo {
+    padding: 20px; /* Reduce padding */
+    font-size: 24px; /* Adjust font size */
+  }
+
+  .img_div {
+    padding: 10px;
+  }
+
+  .myImage {
+    height: 300px; /* Reduce image size */
+  }
+
+  .myInfo h3 {
+    font-size: 20px; /* Adjust heading size */
+    margin-bottom: 20px;
+  }
+
+  .myInfo h1 {
+    font-size: 28px; /* Adjust main heading size */
+    margin-bottom: 30px;
+  }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .home_section {
+    padding: 10px; /* Further reduce padding */
+  }
+
+  .myInfo {
+    font-size: 20px; /* Smaller font size */
+    padding: 10px;
+  }
+
+  .img_div {
+    padding: 0;
+  }
+
+  .myImage {
+    height: 200px; /* Further reduce image size */
+  }
+
+  .myInfo h3 {
+    font-size: 18px;
+  }
+
+  .myInfo h1 {
+    font-size: 24px;
+  }
+
+  .home_btn {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Add spacing between buttons */
+  }
+}

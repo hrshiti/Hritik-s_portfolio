@@ -1,0 +1,117 @@
+/* Footer Section */
+.footer_section {
+  background-color: black;
+  color: white;
+  height: auto; /* Adjust height based on content */
+  padding: 20px 0;
+  margin: 0;
+}
+
+/* Social Media Logos */
+.footer_logoes ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.footer_logoes ul li img {
+  height: 45px;
+}
+
+/* Navigation Links */
+.footer_navlinks ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Individual Navigation Items */
+.footer_navlinks ul li {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Navigation Hover Effects */
+.footer_navlinks ul li:hover {
+  color: yellow;
+  border-bottom: solid 2px yellow;
+}
+.footer_navlinks ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease; 
+}
+
+.footer_navlinks ul li a:hover {
+  color: yellow; 
+}
+
+/* Copyright Section */
+.copyright {
+  background-color: #121212;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+
+/* For medium screens (tablets) */
+@media (max-width: 768px) {
+  .footer_navlinks ul {
+    flex-direction: column; /* Stack the navigation links vertically */
+    gap: 20px;
+    padding: 0; /* Remove padding */
+  }
+
+  .footer_navlinks ul li {
+    font-size: 18px; /* Slightly smaller font size */
+  }
+
+  .footer_logoes ul {
+    gap: 20px; /* Reduced gap for social media logos */
+  }
+
+  .footer_logoes ul li img {
+    height: 35px; /* Smaller logos on tablets */
+  }
+
+  .copyright {
+    margin: 0;
+    padding: 10px;
+  }
+}
+
+/* For smaller screens (phones) */
+@media (max-width: 480px) {
+  .footer_navlinks ul {
+    flex-direction: column; /* Stack the navigation links vertically */
+    gap: 15px;
+    padding: 0 20px;
+  }
+
+  .footer_navlinks ul li {
+    font-size: 16px; /* Smaller font size */
+  }
+
+  .footer_logoes ul {
+    gap: 15px; /* Smaller gap for logos */
+  }
+
+  .footer_logoes ul li img {
+    height: 30px; /* Even smaller logos on mobile */
+  }
+
+  .copyright {
+    padding: 8px;
+  }
+}

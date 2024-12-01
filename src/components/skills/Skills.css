@@ -1,0 +1,127 @@
+/* Main styles */
+.skills_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 66px;
+  background-color: black;
+  color: white;
+  height: auto; /* Allow content to adjust based on screen size */
+  padding: 40px 0; /* Add padding for better spacing */
+  box-sizing: border-box;
+}
+
+.skills_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 103px;
+  margin: 63px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  border: 2px solid yellow;
+  box-shadow: 0 0 15px 3px yellow;
+}
+
+.skills {
+  width: 900px;
+  background-color: #121212;
+  padding: 20px;
+  border-radius: 10px; /* Add rounded corners for better appearance */
+}
+
+/* Skills heading */
+.skills_heading {
+  text-align: center;
+  margin: 10px 0;
+  position: relative;
+}
+
+.skills_heading h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: yellow;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(to right, yellow, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+/* Optional Decorative Line */
+.skills_heading::after {
+  content: "";
+  display: block;
+  width: 120px;
+  min-height: 4px;
+  background: yellow;
+  margin: 10px auto;
+  border-radius: 4px;
+}
+
+/* Responsive styles */
+
+/* For tablets and medium devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .skills_section {
+    padding: 20px; /* Add padding for smaller screens */
+  }
+
+  .skills_logo {
+    gap: 40px; /* Reduce gap between logos */
+    margin: 30px; /* Adjust margins for smaller screens */
+  }
+
+  .skills {
+    width: 80%; /* Make the skills section width responsive */
+    padding: 10px;
+  }
+
+  .skills_heading h1 {
+    font-size: 40px; /* Reduce font size for smaller screens */
+  }
+
+  .logo {
+    width: 55px; /* Adjust icon size */
+    height: 55px;
+  }
+  .logo img{
+    width:50px;
+    height:50px;
+  }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .skills_section {
+    padding: 15px; /* Adjust padding for mobile */
+  }
+
+  .skills_logo {
+    gap: 20px; /* Further reduce gap */
+    margin: 20px; /* Adjust margins */
+  }
+
+  .skills {
+    width: 100%; /* Full width on mobile */
+    padding: 5px;
+  }
+
+  .skills_heading h1 {
+    font-size: 30px; /* Smaller font size for mobile */
+  }
+
+  .logo  {
+    width: 40px; /* Further reduce icon size */
+    height: 40px;
+  }
+  .logo img  {
+    width: 35px; /* Further reduce icon size */
+    height: 35px;
+  }
+}

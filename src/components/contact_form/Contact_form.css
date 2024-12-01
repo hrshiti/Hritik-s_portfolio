@@ -1,0 +1,91 @@
+.contact_section{
+
+  min-height:100vh;
+
+
+    background-color:black;
+    border-top:2px solid white;
+  padding-top:34px
+  }
+  .contact_form{
+   background-color: transparent;
+    height: 445px;
+    min-width: 500px;
+
+  }
+  .main_div{
+    display:flex;
+    justify-content:space-around;
+    justify-content:center;
+    align-items:center;
+    min-height:90vh;
+    gap:184px;
+
+      background-color:black;
+
+    padding-top:34px
+  }
+  .more_btn{
+    padding-left: 670px;
+  }
+ .form_info{
+  padding-bottom: 245px;
+  /* padding-right: 120px; */
+ }
+ .form_info button {
+   margin-left: 83px;
+ }
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main_div {
+    gap: 50px;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    padding: 0 20px;
+  }
+
+  .contact_form {
+    min-width: 80%;
+  }
+
+  .form_info {
+    padding-bottom: 80px;
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .more_btn {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+
+  .form_info button {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact_section {
+    padding-top: 20px;
+  }
+
+  .main_div {
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .contact_form {
+    min-width: 100%;
+  }
+
+  .form_info {
+    padding-bottom: 50px;
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .form_info button {
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+}

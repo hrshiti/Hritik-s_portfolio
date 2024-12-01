@@ -1,15 +1,20 @@
 import "./App.css";
-import Home from "./components/homePage/Home";
-import Nav from "./components/navbar/Nav";
-import About  from "./components/about/About";  
-import Footer from "./footer/Footer";
+import Contact_form from "./components/contact_form/Contact_form";
+
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
+
+import Project from "./components/projects/Project";
+import Skills from "./components/skills/Skills";
+
 
 export default function App() {
   return (
     <>
-      <Nav />
-      <Home />
-      <About />
+  <Navbar />
+      <Skills />
+    <Project />
+      <Contact_form />
       <Footer />
     </>
   );

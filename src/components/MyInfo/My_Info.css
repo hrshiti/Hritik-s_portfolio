@@ -1,0 +1,43 @@
+/* My Info Section */
+.myInfo_css {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  color: white;
+  text-align: center; /* Center the text */
+}
+
+/* Heading Styling */
+.myInfo_css h1 {
+  font-size: 65px;
+  margin-bottom: 4px;
+  color: yellow;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .myInfo_css h1 {
+    font-size: 50px; /* Smaller heading on tablets */
+  }
+
+  .myInfo_css p {
+    font-size: 16px; /* Adjust text size */
+  }
+}
+
+@media (max-width: 480px) {
+  .myInfo_css h1 {
+    font-size: 40px; /* Further reduce font size on mobile */
+  }
+
+  .myInfo_css p {
+    font-size: 14px; /* Further adjust paragraph text size */
+  }
+
+  .myInfo_css {
+    padding: 20px; /* Add padding for mobile */
+  }
+}
