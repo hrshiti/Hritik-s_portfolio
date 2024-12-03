@@ -87,6 +87,7 @@
   }
 
   .logo {
+    display: flex;
     width: 55px; /* Adjust icon size */
     height: 55px;
   }

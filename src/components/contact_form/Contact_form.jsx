@@ -2,7 +2,7 @@
 import Button from "../button/Button";
 import Form1 from "../form/Form1";
 import My_Info from "../MyInfo/My_Info";
-
+import { openResume } from "../resume_func/Resume_func";
 
 
 import "./Contact_form.css";
@@ -34,7 +34,9 @@ const Contact_form =()=>{
     
     
     />
-<Button btn1 = "Download CV"/>
+<Button 
+onClick={openResume}
+btn1 = "Download CV"/>
 </div>
 
 

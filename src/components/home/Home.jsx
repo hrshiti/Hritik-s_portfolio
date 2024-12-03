@@ -1,13 +1,11 @@
 import Button from "../button/Button";
 import "./Home.css";
 // import myImage from "./myImage.jpg";
-
+import { openResume } from "../resume_func/Resume_func";
 
 
 function Home (){
-  const openResume = () => {
-    window.open("https://drive.google.com/file/d/1niN4I46xG9kAh1Td7xBqHGBxlL57cU4y/view?usp=drivesdk", "_blank"); 
-  };
+ 
   const openSkills = ()=>{
     window.open()
   }
