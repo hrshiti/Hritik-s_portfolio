@@ -33,7 +33,7 @@ function Home (){
     <div className="img_div">
     <img 
       className="myImage"
-src="https://c.pxhere.com/photos/13/d9/portrait_people_man_eyes_face_fort_dark_black_and_white-1385735.jpg!d" alt="Description of image" />
+src="assets\images\myImg.jpg" alt="Description of image" />
     </div>
       </section>
     </>

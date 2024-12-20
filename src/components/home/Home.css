@@ -13,6 +13,7 @@
 
 .myImage {
   height: 500px;
+  background-color: transparent;
   width: auto; /* Maintain aspect ratio */
 }
 
@@ -26,7 +27,8 @@
 }
 
 .img_div {
-  padding: 0 20px; /* Adjust padding for smaller screens */
+  background-color: transparent;
+  padding: 0 192px;
 }
 
 .myInfo h3 {
