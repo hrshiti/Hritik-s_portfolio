@@ -14,7 +14,7 @@ function Project() {
             image={"https://unblast.com/wp-content/uploads/2020/09/Portfolio-Web-Design-Template-1.jpg"}
             title={"Portfolio"}
             discription={"This is a portfolio website"}
-            link={"hritikportfoliowebsite.netlify.app"}
+            link={"https://hritikportfoliowebsite.netlify.app/"}
           />
           <Card
             image={"https://downloadpsd.cc/wp-content/uploads/Online-Food-Delivery-Website-Template-Free-PSD.jpg"}
