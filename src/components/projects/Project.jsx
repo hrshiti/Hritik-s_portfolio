@@ -16,11 +16,13 @@ function Project() {
             discription={"This is a portfolio website"}
             link={"https://hritikportfoliowebsite.netlify.app/"}
           />
-          <Card
-            image={"https://downloadpsd.cc/wp-content/uploads/Online-Food-Delivery-Website-Template-Free-PSD.jpg"}
-            title={"Food Delivery"}
-            discription={"This is a food delivery website"}
+           <Card
+            image={"https://tse1.mm.bing.net/th?id=OIP.stWb8TYEx1PwNzhlOalVRQHaDv&pid=Api&P=0&h=180"}
+            title={"GYM trainy"}
+            discription={"This is a gym trainy website"}
+            link={"https://hrgym.netlify.app/"}
           />
+          
           <Card
             image={"https://uicookies.com/wp-content/uploads/2018/03/academics-html-education-website-template.jpg"}
             title={"Education"}
@@ -28,10 +30,10 @@ function Project() {
           />
         </div>
         <div className="project_section">
-          <Card
-            image={"https://tse1.mm.bing.net/th?id=OIP.stWb8TYEx1PwNzhlOalVRQHaDv&pid=Api&P=0&h=180"}
-            title={"GYM trainy"}
-            discription={"This is a gym trainy website"}
+        <Card
+            image={"https://downloadpsd.cc/wp-content/uploads/Online-Food-Delivery-Website-Template-Free-PSD.jpg"}
+            title={"Food Delivery"}
+            discription={"This is a food delivery website"}
           />
           <Card
             image={"https://tse4.mm.bing.net/th?id=OIP.aAE_C6i2T1JhPGGOLUFRagAAAA&pid=Api&P=0&h=180"}
