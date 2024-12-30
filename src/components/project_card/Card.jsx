@@ -1,7 +1,7 @@
 import Button from "../button/Button";
 import "./Card.css";
 
-function Card({title,discription,image}){
+function Card({title,discription,image,link}){
   return(
     <>
    <div className="main_card">
@@ -16,6 +16,7 @@ function Card({title,discription,image}){
      <p>{discription}</p>
      <Button 
        btn1={"View"}
+       link={link}
        />
    </div>
    </div>
