@@ -33,7 +33,7 @@ function Home (){
     <div className="img_div">
     <img 
       className="myImage"
-src="assets\images\myImg.jpg" alt="Description of image" />
+src="public\myImg.jpg" alt="Description of image" />
     </div>
       </section>
     </>
