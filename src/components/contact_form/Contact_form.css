@@ -3,12 +3,12 @@
   min-height:100vh;
 
 
-    background-color:black;
+  background: none;
     border-top:2px solid white;
   padding-top:34px
   }
   .contact_form{
-   background-color: transparent;
+    background: none;
     height: 445px;
     min-width: 500px;
 
@@ -21,7 +21,7 @@
     min-height:90vh;
     gap:184px;
 
-      background-color:black;
+    background: none;
 
     padding-top:34px
   }
@@ -30,6 +30,7 @@
   }
  .form_info{
   padding-bottom: 245px;
+  background: none;
   /* padding-right: 120px; */
  }
  .form_info button {

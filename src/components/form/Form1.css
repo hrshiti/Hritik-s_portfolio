@@ -2,7 +2,7 @@
 .input1, .input2, .input3 {
   min-height: 45px;
   min-width: 550px;
-  background-color: darkgrey;
+  background: none;
   font-weight: 700;
   color: black;
   font-size: 19px;
@@ -12,22 +12,26 @@
 /* Larger input box for messages */
 .input3 {
   min-height: 100px;
+  background: none;
 }
 
 /* Input Section with Padding */
 .input2_css {
   padding-bottom: 23px;
   padding-top: 23px;
+  background: none;
 }
 
 /* Button Styling */
 .input_btn {
   margin-top: 65px;
+  background: none;
 }
 
 .inputBtn {
   font-size: 23px;
   min-width: 56px;
+  background: none;
   min-height: 56px;
 }
 

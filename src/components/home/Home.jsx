@@ -33,7 +33,7 @@ function Home (){
     <div className="img_div">
     <img 
       className="myImage"
-src="public\myImg.jpg" alt="Description of image" />
+src="https://img.freepik.com/premium-photo/portrait-successful-programmer-game-developer-coder-guy-uses-computer-laptop-work-game-design-hacker-boy-generative-ai-cyber-gamer_117038-7597.jpg?w=740" alt="Description of image" />
     </div>
       </section>
     </>

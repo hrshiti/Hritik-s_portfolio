@@ -2,10 +2,11 @@
 .home_section {
   display: flex;
   align-items: center;
+  background: none;
   justify-content: space-between;
   min-height: 650px;
   width: 100vw;
-  background-color: black;
+ 
   color: white;
   padding: 0 20px; /* Add padding to avoid elements sticking to edges */
   box-sizing: border-box;
@@ -13,7 +14,7 @@
 
 .myImage {
   height: 500px;
-  background-color: transparent;
+  background: none;
   width: auto; /* Maintain aspect ratio */
 }
 
@@ -22,20 +23,25 @@
 }
 
 .myInfo {
+  background: none;
   font-size: 30px;
-  padding: 123px; /* Reduce padding for smaller screens */
+  padding: 142px; /* Reduce padding for smaller screens */
 }
 
 .img_div {
-  background-color: transparent;
+  background: none;
   padding: 0 192px;
 }
 
 .myInfo h3 {
+  background: none;
   margin-bottom: 30px;
 }
-
+.home_btn{
+  background: none;
+}
 .myInfo h1 {
+  background: none;
   margin-bottom: 50px;
 }
 

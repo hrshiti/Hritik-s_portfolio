@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   gap: 66px;
-  background-color: black;
+  background: none;
   color: white;
   height: auto; /* Allow content to adjust based on screen size */
   padding: 40px 0; /* Add padding for better spacing */
@@ -17,6 +17,7 @@
   justify-content: center;
   align-items: center;
   gap: 103px;
+  background: none;
   margin: 63px;
 }
 
@@ -28,7 +29,7 @@
 
 .skills {
   width: 900px;
-  background-color: #121212;
+  background: none;
   padding: 20px;
   border-radius: 10px; /* Add rounded corners for better appearance */
 }
@@ -37,6 +38,7 @@
 .skills_heading {
   text-align: center;
   margin: 10px 0;
+  background: none;
   position: relative;
 }
 
@@ -51,6 +53,9 @@
   -webkit-text-fill-color: transparent;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   margin: 0;
+}
+.logo {
+  border-radius: 100%;
 }
 
 /* Optional Decorative Line */
