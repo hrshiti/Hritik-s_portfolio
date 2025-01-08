@@ -1,8 +1,6 @@
-
 .body_div {
   min-height: 100vh;
   width: 100vw;
- 
   color: white;
 }
 
@@ -12,9 +10,10 @@
   align-items: center;
   padding: 0px 20px;
   min-height: 80px;
-  
   position: fixed;
   top: 0;
+  width: 100%;
+  background-color: #000; /* Ensure it has a visible background */
   z-index: 1000;
 }
 
@@ -24,7 +23,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  padding: 0px 316px;
+  padding: 0;
 }
 
 .navLinks ul li {
@@ -37,101 +36,30 @@
   cursor: pointer;
   border-bottom: solid 2px yellow;
 }
-.Logo h1 span{
-  color: yellow;
-}
-.Logo{
-  position: relative;
- left: 2px;
-  top: 6px;
-  
-}
 
-.hamburger {
-  display: none;
-  font-size: 28px;
-  cursor: pointer;
-  color: white;
-}
-
-@media (max-width: 768px) {
-  .nav_Section {
-    flex-direction: column;
-    padding: 10px 20px;
-    height: auto;
-  }
-
-  .Logo {
-    position: relative;
-    left: -124px;
-    top: -22px;
-    margin-bottom: 15px;
-   
-  }
-
-  .navLinks ul {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    padding: 0; 
-  }
-  
-
-  .navLinks ul li {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 480px) {
-  .navLinks ul {
-    gap: 10px;
-  }
-
-  .navLinks ul li {
-    font-size: 16px; 
-  }
-
-  .Logo h1 {
-    font-size: 24px; 
-  }
-}
-.Logo h1{
-  font-size: 30px;
-  padding: 23px;
-  padding-left: 126px;
-
-}
 .navLinks ul li a {
   text-decoration: none;
   color: white;
-  transition: color 0.3s ease; 
+  transition: color 0.3s ease;
 }
 
 .navLinks ul li a:hover {
-  color: yellow; 
+  color: yellow;
 }
-/* Hamburger Menu Icon */
-.hamburger {
+
+.Logo h1 span {
+  color: yellow;
+}
+
+.Logo {
   position: relative;
-  left: 454px;
-  bottom: 94px;
+}
+
+.hamburger {
   display: none;
   font-size: 28px;
   cursor: pointer;
   color: white;
-}
-.Logo{
-  position: relative;
-  right: 134px;
-bottom: 23px;
-}
-.hamburger img{
-  height: 30px;
-}
-
-/* Hide the nav menu by default */
-.navLinks ul {
-  display: flex;
 }
 
 @media (max-width: 768px) {
@@ -140,7 +68,7 @@ bottom: 23px;
     flex-direction: column;
     align-items: center;
     gap: 15px;
-   
+    background-color: #000;
     width: 100%;
     position: absolute;
     top: 80px;
@@ -152,11 +80,34 @@ bottom: 23px;
   .navLinks ul.active {
     display: flex; /* Show the menu when active */
   }
-  .logo{
-    display: none;
+
+  .hamburger {
+    display: block;
+  }
+
+  .Logo {
+    left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav_Section {
+    padding: 20 10px;
+  }
+
+  .navLinks ul li {
+    font-size: 18px;
+  }
+
+  .Logo h1 {
+    font-size: 18px;
   }
 
   .hamburger {
-    display: block; /* Show hamburger icon for small screens */
+    font-size: 24px;
+    
   }
+    .hamburger img{
+      height: 29px;
+    }
 }
